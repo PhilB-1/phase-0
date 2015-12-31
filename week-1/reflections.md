@@ -33,3 +33,30 @@ This video contained a lot of information, some of which was difficult to fully 
 - help: and help will give you helpful information on the shell or whatever other program you are accessing within the shell.
 
 ##Forking and Cloning
+
+- Creating a new repository
+  - GitHub
+    - Login to your GitHub account and navigate to the plus sign in the upper right hand corner of the screen. This is “Create new”
+    - Click it and you will see a drop down with one of the options being “New Repository.”
+    - Click on “New Repository.”
+    - A new page should appear with some options for creating your new repository.
+    - The first thing to look for is a text field in the top center of the screen labeled “Repository Name”
+    - Type the name of the repository in that box.
+    - There are some other options you can adjust such as “Public” or “Private.” Public will allow you to easily share your repositories and let people see your work. Private will make that you can only see it and will have to intentionally share with others.
+    - Once you are done looking through all your options click “Create Repository” and you are all done.
+  -Command Line
+    - Navigate to the directory where you want your repository to reside.
+    - Type in git init <repository name> and hit enter
+    - You new repository should be created.
+- Forking
+  - Forking is a GitHub term for copying a repository. Forking is beneficial in that it allows you to copy all of the contents in a repository in one action.
+  - Navigate to the repository you want fork
+  - Look in the upper right hand corner of the screen for “Fork” and click on “Fork.”
+  - You should now see a new screen with the repository copied into your GitHub account.
+- Cloning
+  - Cloning is the Git term for copying a repository
+  - Navigate to the directory where you want your repository to reside.
+  - Type in git clone <repository location> and hit enter
+  - You new repository should be created.
+  - This works for repositories stored locally as well as online on sites like GitHub
+- I did not have any problems setting up Git or GitHub. It all seemed pretty straight forward. The sight was intuitive and the commands using Git were fairly straight forward. I did had some questions conceptually, but mainly around branching and merging, but I’m sure I will learn more about that as I move on. I did learn that version control is very important and that it is simple to copy a directory so that you can work on it without worry of damaging the main or “master” repository.
