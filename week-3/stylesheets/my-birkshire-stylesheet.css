@@ -1,0 +1,40 @@
+ul {
+  display: inline-block;
+
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+.list-one {
+  margin-left: 40px;
+}
+
+.list-two {
+  margin-left: 20px;
+}
+
+h1 p{
+  margin: 0px;
+  text-align: center;
+  font-size: 30px
+}
+
+h1 {
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+
+div{
+  border-bottom: 1px solid grey;
+  }
+
+p {
+  margin: 0px;
+}
+
+li>p{
+  font-size: 6px;
+  color: blue;
+}
