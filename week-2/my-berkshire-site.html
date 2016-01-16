@@ -24,7 +24,7 @@ Memorizing the basic structure and common tags, as well as how to nest them. I a
     </HEAD>
 
     <h1>
-      <p>BERKSHIRE HATHAWAY INC.</p>
+      <p><span>B</span>ERKSHIRE <span>H</span>ATHAWAY <span ID="inc">INC.</span></p>
       <p>3555 Farnam Street</p>
       <p>Omaha, NE 68131</p>
       <p> Official Home Page</p>
@@ -33,7 +33,7 @@ Memorizing the basic structure and common tags, as well as how to nest them. I a
     <div>
       <ul Class="list-one">
         <li><a href="http://www.berkshirehathaway.com/message.html"> A Message From Warren E. Buffet</a></li>
-        <li><a href="http://www.berkshirehathaway.com/reports.html">Annual & Interim Reports</a><p>Updated November 6, 2015</p></li>
+        <li Class="date"><a href="http://www.berkshirehathaway.com/reports.html">Annual & Interim Reports</a><p ID="sub1">Updated November 6, 2015</p></li>
         <li><a href="http://www.berkshirehathaway.com/SpecialLetters/WEBCTMLtr.html"> A Special Letter From Warren & Charlie RE: Past, Present, and Future</a></li>
         <li><a href="http://www.sec.gov/cgi-bin/browse-edgar?company=berkshire+hathaway&match=&CIK=&filenum=&State=&Country=&SIC=&owner=exclude&Find=Find+Companies&action=getcompany">Link To SEC Filings</a></li>
         <li><a href="http://www.berkshirehathaway.com/subs/sublinks.html">Links to Berkshire Subsidiary Companies </a></li>
@@ -43,13 +43,13 @@ Memorizing the basic structure and common tags, as well as how to nest them. I a
       </ul>
 
       <ul Class="list-two">
-        <li>
+        <li Class="date">
           <a href="http://berkshirehathaway.com/news/2015news.html">News Releases</a>
-          <p>Updated November 6, 2015</p>
+          <p ID="sub2">Updated November 6, 2015</p>
         </li>
-        <li>
+        <li Class="date">
           <a href="http://berkshirehathaway.com/letters/letters.html">Warren Buffett's Letters to Berkshire Shareholders</a>
-          <p>Updated February 28, 2015</p>
+          <p ID="sub3">Updated February 28, 2015</p>
         </li>
         <li>
           <a href="http://www.berkshirehathaway.com/wesco/WescoHome.html"> Charlie Munger's Letters to Wesco Shareholders</a>
@@ -165,17 +165,20 @@ Memorizing the basic structure and common tags, as well as how to nest them. I a
 
 </table>
 -->
+    <footer>
+      <div ID="gieco">
+        <a href="http://www.geico.com/"><img src="imgs/geico_logo.gif"></a>
+      </div>
+      <div>
+        <p ID="ins">FOR A FREE CAR INSURANCE RATE QUOTE THAT COULD SAVE YOU SUBSTANTIAL MONEY
+        <a href="Geico.com">WWW.GEICO.COM</a> OR CALL 1-888-395-6349, 24 HOURS A DAY</p>
+      </div>
+      <div ID="comments">
+        <p>If you have any comments about our WEB page, you can either write us at the address shown above or e-mail us at <a href="berkshire@berkshirehathaway.com">berkshire@berkshirehathaway.com</a>. However, due to the limited number of personnel in our corporate office, we are unable to provide a direct response.</p>
+      </div>
 
-    <a href="http://www.geico.com/"><img src="imgs/geico_logo.gif"></a>
-    <p>FOR A FREE CAR INSURANCE RATE QUOTE THAT COULD SAVE YOU SUBSTANTIAL MONEY
-    <a href="Geico.com">www.GEICO.com</a> OR CALL 1-888-395-6349, 24 HOURS A DAY</p>
-
-    <p>
-      If you have any comments about our WEB page, you can either write us at the address shown above or e-mail us at berkshire@berkshirehathaway.com. However, due to the limited number of personnel in our corporate office, we are unable to provide a direct response.
-    </p>
-
-    <p> <a href="http://www.berkshirehathaway.com/disclaimer.html">Legal Disclaimer</a> </p>
-    <p>Copyright &copy; 1978-2015 Berkshire Hathaway Inc.</p>
-
+      <p ID="legal"> <a href="http://www.berkshirehathaway.com/disclaimer.html">Legal Disclaimer</a> </p>
+      <p ID="copy">Copyright &copy; 1978-2015 <span ID="bold">Berkshire Hathaway Inc.</span></p>
+    </footer>
   </body>
 </html>
