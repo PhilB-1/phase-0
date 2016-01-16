@@ -1,31 +1,83 @@
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+It is important to know the location of the file as well as the rel and type, but those two are standard across stylesheets.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+Using the margin, padding, and the width element along with top, bottom, left, and right, elements. By using percentages rather than pixels you can define where an element should be on your page. It will also work across different screen sizes and resolutions. It wasn't overly hard to get the page the way I wanted it, but it got harder as go along because selectors started to affect tags and portions of the code you didn't plan for earlier. Having to fix some of those issues and conflicts took some time, but I was able to do it in the end.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+I used elements like font-size, font-weight, font-family, and color primarily
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML? I did you classes and ids to modify my html as my selectors started to conflict and overwrite and changes sections I didn't intend them to. I used classes for things I wanted to repeat. I used IDs for one time changes or to overwrite another selector since it is ranked higher as far as which selector the CSS is going to use.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+The site did everything using html. With that being said my html was much cleaner and easier to navigate, but I did much more with the inclusion of CSS. I do believe the use of CSS made making changes much easier, by allowing me to change many sections at once. I also can see how using html to style would be very difficult for anything other than this simple website.
+*/
+
+body {
+  color: navy;
+}
 ul {
   display: inline-block;
-
+  margin-top: 0px;
+  width: 500px;
 }
 
 li {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
+}
+
+a {
+  color: purple;
+}
+
+.date {
+  margin-bottom: 18px;
 }
 
 .list-one {
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 .list-two {
-  margin-left: 20px;
+  margin-left: 30px;
+  vertical-align: top;
 }
 
 h1 p{
   margin: 0px;
   text-align: center;
-  font-size: 30px
+  font-family: serif;
+}
+
+h1 p:first-child{
+  font-size: 18px;
+}
+
+h1 p:nth-child(2){
+  font-size: 13px;
+}
+
+h1 p:nth-child(3){
+  font-size: 13px;
+}
+
+h1 p:nth-child(4){
+  font-size: 16px;
 }
 
 h1 {
   border-bottom: 1px solid grey;
   padding-bottom: 10px;
+  margin-top: 0px;
 }
 
+span {
+  font-size: 30px
+}
+#inc {
+  font-size: 13px;
+}
 div{
   border-bottom: 1px solid grey;
   }
@@ -34,7 +86,50 @@ p {
   margin: 0px;
 }
 
-li>p{
-  font-size: 6px;
-  color: blue;
+#sub1{
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+#sub2{
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+#sub3{
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+#ins {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  font-size: 10px;
+  padding-bottom: 15px;
+}
+
+#gieco {
+  border: none;
+  width: 6%;
+  margin: auto;
+  padding-top: 15px;
+}
+
+#comments {
+  font-size: 13px;
+  padding: 15px 0 15px;
+}
+
+#legal {
+  padding: 15px 0 15px;
+}
+
+#copy {
+  font-size: 10px;
+}
+
+#bold {
+  font-weight: bold;
+  font-size: 10px;
 }
