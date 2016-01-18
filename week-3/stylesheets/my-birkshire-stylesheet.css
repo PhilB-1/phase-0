@@ -15,7 +15,8 @@ The site did everything using html. With that being said my html was much cleane
 */
 
 body {
-  color: navy;
+  color: #000080;
+  background-color: #ffffff;
 }
 ul {
   display: inline-block;
@@ -28,7 +29,11 @@ li {
 }
 
 a {
-  color: purple;
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
 }
 
 .date {
